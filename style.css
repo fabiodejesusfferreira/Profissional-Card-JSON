@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&display=swap");
+
+  * {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Atkinson Hyperlegible Mono", sans-serif;
+    color: white;
+  }
+
+  body {
+    background-color: #2f2f32;
+  }
+
+  #main-conteiner {
+    margin: 100px auto;
+    width: 600px;
+    background-color: #0e1414;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.452);
+  }
+
+  #main-conteiner,
+  header {
+    border-radius: 12px;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 12px 12px 0px 0px;
+    text-align: center;
+    background-color: #1b1f1e;
+  }
+
+  header h1 {
+    padding: 8px 0px;
+  }
+
+  #dots-icon:hover {
+    cursor: pointer;
+  }
+
+  #dots-icon {
+    align-self: center;
+    width: 20px;
+    margin-right: 30px;
+  }
+
+  #box-circles {
+    display: flex;
+    align-self: center;
+  }
+
+  .circle {
+    margin: 10px;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+  }
+
+  main {
+    display: flex;
+  }
+
+  main p {
+    line-height: 1.91em;
+  }
+
+  nav {
+    background-color: #171b1c;
+    border: 1px solid rgb(18, 18, 18);
+  }
+
+  nav,
+  .space-between-nav-itens {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav img {
+    width: 28px;
+  }
+
+  nav img:hover {
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 3px;
+    border-radius: 5px;
+    background: #2d2d2d;
+  }
+
+  #line-numbers > li {
+    color: #858585;
+    padding: 5px 5px 5px 20px;
+  }
+
+  aside {
+    border-right: 2px solid #171b1c;
+    margin: 0px 2px;
+  }
+
+  .space-between-nav-itens li {
+    padding: 10px;
+  }
+
+  .prop-names-color {
+    color: #ec8f75;
+  }
+
+  .value-names-color {
+    color: #fae790;
+  }
+
+  .value-names-color a {
+    color: #fae790;
+    text-decoration: none;
+  }
+
+  .value-names-color a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+
+  .prop-names-color,
+  .value-names-color {
+    padding-left: 15px;
+  }
+
+  li {
+    list-style: none;
+  }
